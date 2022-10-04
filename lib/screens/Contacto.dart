@@ -23,13 +23,13 @@ class _ContactoState extends State<Contacto> {
           TextFormField(
             keyboardType: TextInputType.emailAddress,
             decoration: InputDecoration(
-              hintText: 'email',
+              hintText: 'Email',
             ),
           ),
           TextFormField(
             keyboardType: TextInputType.number,
             decoration: InputDecoration(
-              hintText: 'edad',
+              hintText: 'Edad',
             ),
           ),
           TextField(
